@@ -22,3 +22,10 @@ Q4
 - Citations are valid; the response correctly abstains on the wavelength. The other rules are supported but unnecessary to answer the wavelength question.
 
 Isolation confirmation: the student confirmed "yes they are fresh chats outside this project." This confirmation refers to the two separate fresh-chat runs requested for Task 4.
+
+Q1 revised-instruction run (2026-10-22)
+The student supplied the response from a fresh chat using the revised prompt.
+The original response is retained in q1-answer.txt; the revised response is in q1-answer-revised.txt.
+The prompt adds an explicit request to assess operating alone and access permission at 19:00 separately, without adding or changing the retrieved A2 and T1 passages.
+Assistant audit: all three operating-rule claims are supported by A2; both training requirements are supported by T1. The response explicitly identifies access hours and after-hours authorization as missing, and does not assert permission at 19:00. It also correctly identifies individual training status as unknown. No unsupported access-hours value is invented.
+Observed improvement: the revised answer retains the supported no-alone conclusion and now acknowledges the missing access-hours evidence. The instruction change helped this run; retrieval coverage remains 1/2 because A1 is still absent. This single run does not establish general reliability.

@@ -2,3 +2,4 @@ Q1 and Q4 responses were supplied by the student in the project conversation on 
 The student reported the answering model as "5.6 medium". No exact model snapshot identifier was supplied. The student confirmed that both successful runs used separate fresh chats outside this project: "yes they are fresh chats outside this project."
 The earlier automated Q1 browser attempt displayed "This response couldn’t load" and is not the source of these responses.
 Student overall judgment: "both are correct." The claim lists within the answer files are part of the generated responses. See task4-audit.txt for the student's judgment and separately attributed assistant checks.
+The student subsequently supplied the revised Q1 answer from a fresh chat on 2026-10-22. q1-answer-revised.txt preserves its wording with the pasted table formatting repaired. The exact model for this rerun was not separately specified.

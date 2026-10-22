@@ -5,7 +5,8 @@ Student: Yinuo Zhao (working individually).
 This teaching project compares word overlap with pretrained embeddings on six
 fictional Cedar Lab passages. Retrieval runs, embedding understanding checks,
 student comparison judgments, and generated answers with audit notes are saved.
-The reflection is saved in `reflection.txt`; final repository checks and submission remain.
+The reflection is saved in `reflection.txt`. Local verification reproduced all
+four saved rankings and scores and confirmed the six source passages verbatim.
 
 ## Setup
 
@@ -91,12 +92,12 @@ Responses are preserved in `evidence/q1-answer.txt` and `evidence/q4-answer.txt`
 `evidence/task4-audit.txt` separates the student's overall judgment from the
 assistant's claim-by-claim checks. Q1's no-alone conclusion is supported, but
 the response does not explicitly acknowledge the missing access-hours rule.
-Q4 correctly states that wavelength information is absent.
+Q4 correctly states that wavelength information is absent. A single revised
+instruction run for Q1 is saved in `evidence/q1-answer-revised.txt`, with its
+prompt in `evidence/q1-answer-prompt-revised.txt`. It uses the same A2 and T1
+passages and now explicitly acknowledges the missing access-hours information.
+The original response is retained, and the improvement is recorded in the audit.
 
 ## Remaining work
 
-- Rerun Q1 once with the revised prompt in `evidence/q1-answer-prompt-revised.txt`
-  in a fresh chat with the same passages, then audit whether it acknowledges the
-  missing access-hours information. The handout requires one revised-instruction
-  run when an answer fails an audit check; the original answer is preserved.
-- Finalize reproducibility instructions, push to GitHub, and submit the repo link.
+- Push to GitHub and submit the repo link to the course sign-up sheet.
