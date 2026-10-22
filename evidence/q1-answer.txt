@@ -1,0 +1,11 @@
+No. A trained graduate student may not operate the laser alone at 19:00 because two trained people must be present whenever the laser is operating. [A2]
+
+The passages do not establish whether the graduate student’s laser training is currently valid; they only state that training must be renewed every 12 months and that a current training record is required before operation. [T1]
+
+Factual claims and support:
+
+- Two trained people must be present whenever the laser is operating. — [A2]
+- Therefore, one graduate student cannot operate the laser alone. — [A2]
+- Laser training must be renewed every 12 months. — [T1]
+- A current training record is required before operating the laser. — [T1]
+- Whether this particular graduate student has a current training record is not established. — Unsupported by the supplied passages.

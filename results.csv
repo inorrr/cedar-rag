@@ -1,0 +1,5 @@
+question_id,keyword_top_ids,keyword_scores,embedding_top_ids,embedding_scores,required_ids,keyword_evidence_complete,embedding_evidence_complete,observation
+Q1,A1;A2,3;2,A2;T1,0.686445594;0.58195281,A1;A2,true,false,"Student judgment: only keyword k=2 retrieves both A1 and A2. Embedding k=1, 2, and 3 all miss A1. Required evidence coverage is 2/2 for keyword k=2 and 1/2 for each embedding run."
+Q2,A2;B1,2;1,A2;T1,0.585193336;0.43476063,A2,true,true,Student judgment: both retrieved the required A2 passage and added one extra passage.
+Q3,T1;A2,2;1,T1;B1,0.742027402;0.471195221,T1,true,true,Student judgment: both retrieved the required T1 passage and added one extra passage.
+Q4,A2;B1,1;1,T1;A2,0.347721219;0.320827156,absent,false,false,Student judgment: neither method retrieved an answer. Wavelength is absent from the corpus; nearest passages are not successful answer retrieval. Coverage ratio is not applicable.

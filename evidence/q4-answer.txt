@@ -1,0 +1,8 @@
+The laser wavelength is **not established by the supplied passages**. Neither [T1] nor [A2] provides any wavelength information.
+
+Factual claims and support:
+
+- Laser training must be renewed every 12 months. [T1]
+- A current training record is required before operating the laser. [T1]
+- Two trained people must be present whenever the laser is operating. [A2]
+- The laser wavelength: **unsupported; no supplied chunk states it.**

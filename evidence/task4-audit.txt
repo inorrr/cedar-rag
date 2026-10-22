@@ -1,0 +1,24 @@
+Task 4 answer audit
+
+Student judgment (verbatim): "both are correct. I used 5.6 medium"
+Recorded model label: 5.6 medium (student-reported).
+Original responses: q1-answer.txt and q4-answer.txt.
+
+Assistant checks (not presented as the student's own written analysis):
+
+Q1
+- Two trained people must be present during laser operation: supported by A2.
+- A student cannot operate alone, including at 19:00: supported by A2's unconditional operating rule. This does not establish permission to enter the lab at 19:00.
+- Training renewal every 12 months: supported by T1.
+- Current training record required before operation: supported by T1.
+- This particular student's current training status is unknown: a valid limitation of the supplied evidence, not an invented fact about the student. The response's "Unsupported" label describes the unavailable status.
+- Citations A2 and T1 are supplied chunks and support the associated rules.
+- Limitation: the response does not explicitly acknowledge that access hours at 19:00 are missing. A1 was not retrieved. The no-alone conclusion is supported, but the full required A1+A2 evidence and explicit acknowledgment of the missing time condition are absent.
+
+Q4
+- Wavelength is not provided: confirmed by inspecting both supplied passages, T1 and A2. No wavelength is invented.
+- Training renewal and current-record requirements: supported by T1.
+- Two-person operating requirement: supported by A2.
+- Citations are valid; the response correctly abstains on the wavelength. The other rules are supported but unnecessary to answer the wavelength question.
+
+Isolation confirmation: the student confirmed "yes they are fresh chats outside this project." This confirmation refers to the two separate fresh-chat runs requested for Task 4.
